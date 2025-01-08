@@ -18,13 +18,13 @@ let bestScore = localStorage.getItem('bestScore') ? parseInt(localStorage.getIte
 let gameOver = false;
 
 const backgroundImage = new Image();
-backgroundImage.src = '배경9.png';
+backgroundImage.src = 'back9.png';
 
 const planeImage = new Image();
-planeImage.src = '주인공9.png';
+planeImage.src = 'main9.png';
 
 const obstacleImage = new Image();
-obstacleImage.src = '장애물9.png';
+obstacleImage.src = 'jang9.png';
 
 function drawBackground() {
     ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
